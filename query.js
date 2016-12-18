@@ -12,7 +12,7 @@ connection.connect(function(err) {
 	} else {
 		console.log('与Mysql数据库建立连接成功！');
 		connection.query('INSERT INTO tableone SET ?',
-			{id:2,name:'liao',age:24,sex:'boy'},function(err,result) {
+			{id:3,name:'wxd',age:24,sex:'boy'},function(err,result) {
 				if (err) {
 					console.log('插入数据失败！');
 				} else {
